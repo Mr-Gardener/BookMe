@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  background-image: url("../public/rooms.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+/* this is for the navbar styling (nav1) */
+.Nav .nav1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.navLogo h3{
+  color: #ffffff;
+}
+
+.features{
+  display: flex;
+  gap: 20px;
+}
+
+.features a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.srch {
+  display: flex;
+  gap: 10px;
+}
+
+.srch .fa-regular, 
+.srch .fa-solid{
+  color: black;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 25px;
+  height: 30px;
+  padding: 5px;
+}
+
+.srch .book{
+  color: black;
+  background-color: #ffffff;
+  padding: 3px;
+  border-radius: 20px;
+  width: 70px;
+}
+
+/* /* this is for the navbar styling (nav2) */ 
+
+.nav2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav2 .nav2-location .sect1  {
+  display: flex;
+  gap: 15px;
+  margin-left: 35%;
+}
+
+.nav2 .nav2-location .sect1 .lct{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  width: 90px;
+  background-color: #ffffff;
+  gap: 8px;
+  border: none;
+  border-radius: 14px;
+}
+
+
+.nav2 .nav2-location .sect1 .fa-house, 
+.nav2 .nav2-location .sect1 .fa-calendar {
+  color: #ffffff;
+  opacity: 0.7;
+  border: solid 1px #ffffff;
+  border-radius: 50%;
+  padding: 4px;
+  margin: 9px 4px 0 0;
+}
+
+.nav2-feedback .feedback2 {
+  border: solid 1px #ffffff;
+  border-radius: 50%;
+  height: 135px;
+  width: 120px;
+}
+
+.nav2-feedback .feedback2 p{
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 125px;
+  padding: 20px;
+  width: 110px;
+  margin: 4px 0 0 4px;
+}
+
+.nav2-conf .one{
+  display: flex;
+}
+
+.nav2-conf .d1{
+  /* background-color: #ffffff; */
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+}
+
+.two {
+  background-color: grey;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+.two1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.two2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.two2 .fa-brands,
+.two2 .fa-solid {
+  border: solid 1px black;
+  width: 70px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  padding: 2px;
+}
