@@ -49,7 +49,7 @@ body {
   margin-top: 10px;
 }
 
-.navLogo h3{
+.navLogo h1{
   color: #ffffff;
 }
 
@@ -61,6 +61,7 @@ body {
 .features a{
   color: #ffffff;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .srch {
@@ -108,6 +109,8 @@ body {
 }
 
 .nav2 .nav2-location .sect1 .lct{
+  background-image: url(./Assets/united-states-map-with-state-capitals.gif);
+  background-size: 120px;
   display: flex;
   justify-content: center;
   padding: 5px;
@@ -142,11 +145,19 @@ body {
   grid-template-columns: 1fr;
 }
 
+.nav2-feedback p .bold{
+  font-weight: bold;
+}
+
 .nav2-feedback .feedback2 {
   border: solid 1px #ffffff;
   border-radius: 50%;
   height: 135px;
   width: 120px;
+}
+
+.nav2-feedback .feedback2 a {
+  text-decoration: none;
 }
 
 .nav2-feedback .feedback2 p{
@@ -156,6 +167,7 @@ body {
   padding: 20px;
   width: 110px;
   margin: 4px 0 0 4px;
+  color: black;
 }
 
 .nav2-conf {
@@ -190,6 +202,7 @@ body {
 .two2 {
   display: flex;
   justify-content: space-around;
+
 }
 
 .two2 .fa-brands,
@@ -199,6 +212,7 @@ body {
   margin-bottom: 8px;
   border-radius: 10px;
   padding: 2px;
+  color: black;
 }
 
 /* this is for the navbar styling (nav3) */ 
@@ -211,7 +225,7 @@ body {
 .nav3-right {
   border: solid 1px #ffffff;
   margin: 10px 20px 0 0;
-  padding: 20px;
+  padding: 20px 20px 0 20px; 
   border-radius: 10px;
 }
 
@@ -301,4 +315,5 @@ body {
 .nav3 .nav3-left .cl {
   font-weight: bolder;
   font-size: 70px;
+  margin-bottom: ;
 }

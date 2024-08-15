@@ -7,7 +7,7 @@ export default function Home() {
             <div className="Nav">
             <div className="nav1 col-lg-12">
                 <div className="navLogo">
-                    <h3>HuzBar</h3>
+                    <h1>HuzBar</h1>
                 </div>
                 <div className="features">
                     <a href="/">Home</a>
@@ -47,14 +47,16 @@ export default function Home() {
 
                 </div>
                 <div className="nav2-feedback">
-                    <p className="cl">Your Passport to <br /> Unforgettable Suites</p>
+                    <p className="cl">Your Passport to <br /> <span className="bold">Unforgettable</span> Suites <br /> & Hotel</p>
                     <div className="feedback2">
-                        <p>Book your <br />
-                            stay <br />
-                             <span>
-                                <i class="fa-solid fa-arrows-to-dot"></i>
-                            </span>
-                        </p>
+                        <a href="">
+                            <p>Book your <br />
+                                stay <br />
+                                <span>
+                                    <i class="fa-solid fa-arrows-to-dot"></i>
+                                </span>
+                            </p>
+                        </a>
                     </div>
                 </div>
                 <div className="nav2-conf">
@@ -83,9 +85,9 @@ export default function Home() {
                             <p>Add to Calendar </p>
                         </div>
                         <div className="two2">
-                        <i class="fa-brands fa-apple"></i>
-                        <i class="fa-brands fa-google"></i>
-                        <i class="fa-solid fa-calendar-plus"></i>
+                        <a href=""><i class="fa-brands fa-apple"></i></a>
+                        <a href=""><i class="fa-brands fa-google"></i></a>
+                        <a href=""><i class="fa-solid fa-calendar-plus"></i></a>
                         </div>
                     </div>
                 </div>
