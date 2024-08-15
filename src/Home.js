@@ -17,10 +17,10 @@ export default function Home() {
                 </div>
                 <div className="srch">
                     <section>
-                        <i class="fa-regular fa-user"></i>
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href=""><i class="fa-regular fa-user"></i></a>
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
                     </section>
-                    <p className="book">Booking</p>
+                    <a href="" className="book ft"><p >Booking</p></a>
                 </div>
             </div>
             <div className="nav2">
@@ -29,16 +29,16 @@ export default function Home() {
                         <div className="lct">
                             <a href="">
                                 <i class="fa-solid fa-location-dot"></i>
-                            </a> 
-                            <p>Bali</p> 
-                        </div> 
+                                <p className="ft sm">Bali</p>
+                            </a>  
+                        </div>
                         <div>
-                        <i class="fa-solid fa-calendar"></i>
-                        <i class="fa-solid fa-house"></i>
+                            <a href=""><i class="fa-solid fa-calendar"></i></a>
+                            <a href=""><i class="fa-solid fa-house"></i></a>
                         </div>                
                     </div>
                     <div className="sect2">
-                        <p>We are premier hotel booking <br />
+                        <p className="cl">We are premier hotel booking <br />
                            service that caters to the discerning <br />
                            traveler in search of luxury and 
                            sophistication
@@ -47,10 +47,7 @@ export default function Home() {
 
                 </div>
                 <div className="nav2-feedback">
-                    <p>Your Passport to <br /> Unforgettable Suites</p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <p className="cl">Your Passport to <br /> Unforgettable Suites</p>
                     <div className="feedback2">
                         <p>Book your <br />
                             stay <br />
@@ -64,12 +61,12 @@ export default function Home() {
                     <div className="one">
                         <div>
                             <i class="fa-solid fa-suitcase-rolling"></i>
-                            <p>Booking <br />
+                            <p className="ft">Booking <br />
                                is confirmed!
                             </p>
                         </div>
                         <div>
-                            <p>*</p>
+                            <p className="ft lg">*</p>
                         </div>
                         <div className="">
                             <img className="d1" src={Conf} alt="Room booked" />
@@ -95,12 +92,32 @@ export default function Home() {
             </div>
             <div className="nav3">
                 <section className="nav3-left">
-                    <p>* Book Perfect Stay <br />
+                    <p className="cl">* Book Perfect Stay <br />
                         For Your Vacation
                     </p>
                 </section>
                 <section className="nav3-right">
-
+                    <div className="right1">
+                        <img className="d2" src={Conf} alt="" />
+                        <section>
+                            <i>Your stay:</i>
+                            <i>Bali</i>
+                            <i>Directions: </i>
+                            <i>Ubuntu strt</i>
+                        </section>
+                    </div>
+                    <div className="right2">
+                        <a className="pay" href="">
+                            <i class="fa-brands fa-apple"></i>
+                             Pay
+                        </a>
+                        <p>Apple Pay</p>
+                        <a className="cfm" href="">Confirmed</a>
+                    </div>
+                    <div className="right3">
+                        <a className="details" href="">Booking details</a>
+                        <a className="info" href="">Edit information</a>
+                    </div>
                 </section>
             </div>
         </div>
